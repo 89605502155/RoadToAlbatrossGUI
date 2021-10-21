@@ -1,7 +1,7 @@
-# создаём окно
+# СЃРѕР·РґР°С‘Рј РѕРєРЅРѕ
 my_win <- gbasicdialog("My Window",visible  = T, do.buttons=FALSE)
 
-# добавляем кнопку для закрытия окна
+# РґРѕР±Р°РІР»СЏРµРј РєРЅРѕРїРєСѓ РґР»СЏ Р·Р°РєСЂС‹С‚РёСЏ РѕРєРЅР°
 gbutton("Cancel", container = my_win,handler = function(h,...) {
   my_win$dispose_window()
 })

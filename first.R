@@ -4,7 +4,7 @@ install.packages('gWidgets2tcltk')
 install.packages('albatross')
 install.packages('RGtk2')
 install.packages('Qt')
-# создаём окно
+# СЃРѕР·РґР°С‘Рј РѕРєРЅРѕ
 gwindow(title = "Window", visible = TRUE, name=title,
  width = NULL, height= NULL, parent=NULL,
  handler = NULL, action = NULL,
