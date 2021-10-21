@@ -8,13 +8,13 @@ install.packages('lubridate')
 
 library(lubridate)
 options(guiToolkit="tcltk")
-#переходим в рабочую директорию
+#РїРµСЂРµС…РѕРґРёРј РІ СЂР°Р±РѕС‡СѓСЋ РґРёСЂРµРєС‚РѕСЂРёСЋ
 setwd("C:/Users/admin/Desktop/GUI_ALBATROSS/R_GUI")
 
-# создаём окно
+# СЃРѕР·РґР°С‘Рј РѕРєРЅРѕ
 my_win <- gbasicdialog("My Window",visible  = T, do.buttons=FALSE)
 
-# добавляем кнопку для закрытия окна
+# РґРѕР±Р°РІР»СЏРµРј РєРЅРѕРїРєСѓ РґР»СЏ Р·Р°РєСЂС‹С‚РёСЏ РѕРєРЅР°
 gbutton("Cancel", container = my_win,handler = function(h,...) {
   my_win$dispose_window()
 })
